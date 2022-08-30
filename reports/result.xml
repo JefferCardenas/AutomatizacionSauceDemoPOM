@@ -1,0 +1,69 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="14.989918000000529">
+<testsuite name="addToCartProductLowAndHigh.spec.ts" timestamp="1661871638743" hostname="" tests="1" failures="0" skipped="0" time="4.827" errors="0">
+<testcase name="
+Given I am on the inventory page
+When I filter the products from lowest to highest price
+Then I add the cheapest and the most expensive product to the cart. 
+" classname="[chromium] › addToCartProductLowAndHigh.spec.ts:25:1 › 
+Given I am on the inventory page
+When I filter the products from lowest to highest price
+Then I add the cheapest and the most expensive product to the cart. 
+" time="4.827">
+<system-out>
+<![CDATA[CHEAP PRODUCT --> $7.99
+EXPENSIVE PRODUCT --> $49.99
+
+[[ATTACHMENT|..\test-results\addToCartProductLowAndHigh--Given-I-am-on-the--eddab-est-and-the-most-expensive-product-to-the-cart--chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="addToCartProductLowAndHigh.spec.ts" timestamp="1661871638743" hostname="" tests="1" failures="1" skipped="0" time="5.961" errors="0">
+<testcase name="
+Given I am on the inventory page
+When I filter the products from lowest to highest price
+Then I add the cheapest and the most expensive product to the cart. 
+" classname="[firefox] › addToCartProductLowAndHigh.spec.ts:25:1 › 
+Given I am on the inventory page
+When I filter the products from lowest to highest price
+Then I add the cheapest and the most expensive product to the cart. 
+" time="5.961">
+<failure message="addToCartProductLowAndHigh.spec.ts:25:1 
+Given I am on the inventory page
+When I filter the products from lowest to highest price
+Then I add the cheapest and the most expensive product to the cart. 
+" type="FAILURE">
+<![CDATA[  [firefox] › addToCartProductLowAndHigh.spec.ts:25:1 › 
+Given I am on the inventory page
+When I filter the products from lowest to highest price
+Then I add the cheapest and the most expensive product to the cart. 
+ 
+
+    browserContext.newPage: Page closed
+
+
+
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="addToCartProductLowAndHigh.spec.ts" timestamp="1661871638743" hostname="" tests="1" failures="0" skipped="0" time="10.111" errors="0">
+<testcase name="
+Given I am on the inventory page
+When I filter the products from lowest to highest price
+Then I add the cheapest and the most expensive product to the cart. 
+" classname="[webkit] › addToCartProductLowAndHigh.spec.ts:25:1 › 
+Given I am on the inventory page
+When I filter the products from lowest to highest price
+Then I add the cheapest and the most expensive product to the cart. 
+" time="10.111">
+<system-out>
+<![CDATA[CHEAP PRODUCT --> $7.99
+EXPENSIVE PRODUCT --> $49.99
+
+[[ATTACHMENT|..\test-results\addToCartProductLowAndHigh--Given-I-am-on-the--eddab-est-and-the-most-expensive-product-to-the-cart--webkit\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
